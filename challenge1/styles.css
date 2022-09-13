@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Outfit:wght@200;300;500&display=swap");
+
+* {
+  /* margin-top: 10px; */
+  padding: 0;
+  font-family:"Montserrat";
+  text-transform: uppercase;
+}
+.form-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: 	#9900ff;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  flex-wrap: wrap;
+}
+
+.form-div .container {
+  /* border: 6px solid black; */
+  /* min-height: 64vh; */
+  height: auto;
+  background-color: white;
+  color: hsl(212, 21%, 14%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem;
+  flex-wrap: wrap;
+  border-radius: 30px;
+  box-shadow: 0 0 20px #929292;
+  ;
+
+}
+h1 {
+    color:#6d0bcf;
+  margin-top: -46px;
+  border-bottom: 3px solid #6d0bcf ;
+}
+.form-div .container .div-inputs,.form-div .container .div-terms,.create-acc,.last{
+    height: 2.5rem;
+    margin-bottom: 30px;
+    /* border: 2px solid rgb(162, 33, 33); */
+    text-align: center;
+    border-radius:20px 20px;
+    box-shadow: 1px 1px 15px #cca7f1;
+    flex: 1 1 auto;
+    width: auto;
+}
+
+.form-div .container .div-inputs{
+    padding-left: 10px;
+}
+
+
+
+.div-terms{
+    padding-top: 12px;
+    text-align: center;
+    font-size: 0.8em;
+    padding-left: 10px;
+    padding-right: 10px;
+ 
+}
+.last{
+    padding-bottom: 20px;
+
+
+}
+
+.create-acc{
+    padding-top:12px ;
+    font-size:1.3rem;
+    color: white;
+    background: linear-gradient(#bc2efd, #953ced);background: linear-gradient(0.25turn, #2601c7, #393d98, #a743ef);
+    border-radius: 40px;
+}
+.create-acc:hover{
+    /* font-size:bold;/ */
+    cursor: pointer;
+    font-weight:bold;
+}
+
+a{
+    text-decoration: none;
+    color:#6d0bcf;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* input sizw */
+input[type="text"]{
+ 
+    font-size: 1.2rem;
+    }
+    
+    input[type="email"]{
+    
+    font-size: 1.2rem;
+    }
+    
+    input[type="password"]{
+     
+    font-size: 1.2rem;
+    }
+
+    #user,#email,#password{
+        display: flex;
+        align-items:center;
+    }
+    
+    input {
+        border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        border-bottom-style: hidden;
+      }
+      
+      *:focus {
+        outline: none;
+      }
+
+      @media screen and (max-width:500px) {
+        .form-div{
+          display: block;
+        }
+      }
